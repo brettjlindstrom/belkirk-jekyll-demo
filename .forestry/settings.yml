@@ -10,13 +10,13 @@ sections:
   templates:
   - landing-page
   - page
+- type: heading
+  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
   templates:
   - post
-- type: heading
-  label: Content
 - type: directory
   path: _people
   label: People
